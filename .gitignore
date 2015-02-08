@@ -3,4 +3,5 @@
 .settings
 META-INF
 .tern-project
+.idea
 bower_components
