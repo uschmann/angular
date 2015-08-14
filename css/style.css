@@ -1,0 +1,39 @@
+html, body {
+    height: 100%;
+    position: relative;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+}
+
+.sidebar {
+    background-color: #555;
+}
+
+.main {
+
+}
+
+.content-col {
+    border-right: solid 1px #000;
+    min-width: 400px;
+}
+
+.content-col-headline {
+    border-bottom: solid 1px #000;
+    padding-left:35px;
+    padding-right:35px;
+}
+
+.content-col-content {
+    flex: 1 1 auto; /** Firefox workaround for vertical scolling */
+    padding:35px;
+    overflow-y: auto;
+    min-height: 0px;
+    height: 0px;
+}
+
+
+
